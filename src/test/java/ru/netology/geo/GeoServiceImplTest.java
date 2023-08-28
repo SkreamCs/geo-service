@@ -1,12 +1,10 @@
-package ru.netology.geo;
+package ru.netology;
 
 import ru.netology.entity.Country;
 import ru.netology.entity.Location;
-import ru.netology.geo.GeoServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 public class GeoServiceImplTest {
     @org.junit.jupiter.api.Test
